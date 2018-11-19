@@ -1,0 +1,27 @@
+{
+  "_id": "page._business",
+  "_type": "page.form",
+  "body": "Manager's details",
+  "components": [
+    {
+      "_id": "page._business--text.input_auto__8",
+      "_type": "text",
+      "label": "First Name",
+      "name": "input_auto__8"
+    },
+    {
+      "_id": "page._business--text.input_auto__9",
+      "_type": "text",
+      "label": "Last Name",
+      "name": "input_auto__9"
+    },
+    {
+      "_id": "page._business--email.input_auto__10",
+      "_type": "email",
+      "label": "Manager's Email Address",
+      "name": "input_auto__10"
+    }
+  ],
+  "heading": "Manager's Details",
+  "url": "/manager_details"
+}

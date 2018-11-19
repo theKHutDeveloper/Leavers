@@ -1,0 +1,7 @@
+{
+  "_id": "page._finish",
+  "_type": "page.confirmation",
+  "heading": "Form Complete",
+  "lede": "You have successfully filled in your Leaver's form",
+  "url": "/finish"
+}

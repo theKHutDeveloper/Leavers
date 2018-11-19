@@ -1,0 +1,77 @@
+{
+  "_id": "page._employment_details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page._employment_details--text.input_auto__4",
+      "_type": "text",
+      "label": "Job Title",
+      "name": "input_auto__4"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page._employment_details--radios.input_auto__5",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._employment_details--radios.input_auto__5--radio.Permanent",
+          "_type": "radio",
+          "label": "Permanent",
+          "value": "Permanent"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._employment_details--radios.input_auto__5--radio.Contractor",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "Contractor"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._employment_details--radios.input_auto__5--radio.Other",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page._employment_details--radios.input_auto__5--radio.Other--textarea.input_auto__5",
+            "_type": "textarea",
+            "label": "Provide details",
+            "name": "input_auto__5"
+          },
+          "label": "Other",
+          "value": "Other"
+        }
+      ],
+      "legend": "Employment Type",
+      "name": "employment",
+      "show": true
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page._employment_details--date.input_auto__7",
+      "_type": "date",
+      "label": "Leaving Date",
+      "name": "input_auto__7"
+    }
+  ],
+  "heading": "Employment Details",
+  "url": "/employment_details"
+}

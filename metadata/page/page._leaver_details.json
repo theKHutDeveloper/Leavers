@@ -1,0 +1,27 @@
+{
+  "_id": "page._leaver_details",
+  "_type": "page.form",
+  "body": "Name of Leaver*",
+  "components": [
+    {
+      "_id": "page._leaver_details--text.input_auto__1",
+      "_type": "text",
+      "label": "First Name",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page._leaver_details--text.input_auto__2",
+      "_type": "text",
+      "label": "Last Name",
+      "name": "input_auto__2"
+    },
+    {
+      "_id": "page._leaver_details--email.input_auto__3",
+      "_type": "email",
+      "label": "Email Address",
+      "name": "input_auto__3"
+    }
+  ],
+  "heading": "Leaver Details",
+  "url": "/leaver_details"
+}
